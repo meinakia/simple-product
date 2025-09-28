@@ -1,4 +1,4 @@
-package services;
+package org.example.services;
 
 import org.example.core.Product;
 import org.example.dtos.ProductDTO;

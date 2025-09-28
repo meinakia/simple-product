@@ -1,0 +1,27 @@
+.form__body {
+  & .form__button__container {
+    display: grid;
+    margin-top: 20px;
+    grid-template-columns: 1fr 1fr;
+    justify-content: end;
+    grid-gap: 10px;
+  }
+}
+
+.action__button {
+  background-color: green;
+  color: white;
+  width: 100px;
+  height: 40px;
+  border: 2px solid green;
+  border-radius: 10px;
+}
+
+.cancel__button {
+  background-color: gray;
+  color: white;
+  width: 100px;
+  height: 40px;
+  border: 2px solid gray;
+  border-radius: 10px;
+}

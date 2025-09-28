@@ -2,6 +2,7 @@
 
 import React, { useCallback, useEffect, useState } from 'react';
 import { getProducts, createProduct } from '../apis/simpleProductApi';
+import styles from './styles/Products.module.scss';
 
 export default function Products() {
   const [products, setProducts] = useState([]);
@@ -66,9 +67,18 @@ export default function Products() {
           <li key={index}>{product.name}</li>
         ))}
       </ul>
-      <button onClick={() => setIsAdding(true)}>Add Product</button>
+      <button
+        className={styles.action__button}
+        onClick={() => setIsAdding(true)}
+      >
+        Add Product
+      </button>
       {isAdding && (
-        <form onSubmit={onSubmit} id="form_product">
+        <form
+          onSubmit={onSubmit}
+          id="form_product"
+          className={styles.form__body}
+        >
           <label htmlFor="name">Name</label>
           <input
             name="name"
@@ -77,10 +87,18 @@ export default function Products() {
             onChange={onChange}
             required
           />
-          <button type="submit">Create</button>
-          <button type="button" onClick={() => setIsAdding(false)}>
-            Cancel
-          </button>
+          <div className={styles.form__button__container}>
+            <button
+              className={styles.cancel__button}
+              type="button"
+              onClick={() => setIsAdding(false)}
+            >
+              Cancel
+            </button>
+            <button type="submit" className={styles.action__button}>
+              Create
+            </button>
+          </div>
         </form>
       )}
     </>

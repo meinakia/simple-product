@@ -19,7 +19,7 @@ public class ProductController {
 
     @GetMapping
     public List<ProductDTO> getProducts() {
-        return ProductMapper.MAPPER.productToProductDTO(productService.findAll());
+        return ProductMapper.MAPPER.productsToProductsDTO(productService.findAll());
     }
 
     @PostMapping

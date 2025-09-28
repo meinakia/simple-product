@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cb9d1ea2-7e76-4eda-95b3-4bd24fba278b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/simple-product-frontend/eslint.config.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/simple-product-frontend/eslint.config.mjs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple-product-frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/simple-product-frontend/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple-product-frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/simple-product-frontend/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple-product-frontend/src/app/layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/simple-product-frontend/src/app/layout.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple-product-frontend/src/app/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/simple-product-frontend/src/app/page.js" afterDir="false" />
-    </list>
+    <list default="true" id="cb9d1ea2-7e76-4eda-95b3-4bd24fba278b" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -52,13 +46,13 @@
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;/Users/minaeinakian/Mina_Workspace/simple-product&quot;,
     &quot;onboarding.tips.debug.path&quot;: &quot;/Users/minaeinakian/Mina's Workspace/simple-product/src/main/java/org/example/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager" selected="Maven.simple-product [spring-boot:run]">
+  <component name="RunManager" selected="Maven. [spring-boot:run]">
     <configuration name="ProductServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="simple-product-backend" />
       <extension name="coverage">
@@ -121,7 +115,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="simple-product [spring-boot:run]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="simple-product" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="simple-product" />
+      <option name="filePath" />
+      <method v="2" />
+    </configuration>
+    <configuration name=" [spring-boot:run]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
       <MavenSettings>
         <option name="myGeneralSettings" />
         <option name="myRunnerSettings" />
@@ -145,12 +150,19 @@
               <list />
             </option>
             <option name="resolveToWorkspace" value="false" />
-            <option name="workingDirPath" value="$PROJECT_DIR$" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/simple-product-backend" />
           </MavenRunnerParameters>
         </option>
       </MavenSettings>
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="JUnit.ProductsControllerTest" />
+      <item itemvalue="JUnit.ProductsControllerTest.testGetProducts" />
+      <item itemvalue="JUnit.ProductServiceTest" />
+      <item itemvalue="JUnit.ProductServiceTest.testCreateProductShouldThrow" />
+      <item itemvalue="Maven. [spring-boot:run]" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.ProductsControllerTest" />
