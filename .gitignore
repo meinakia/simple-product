@@ -1,0 +1,13 @@
+# backend
+/simple-product-backend/target/
+/simple-product-backend/.mvn/
+/simple-product-backend/.idea/
+/simple-product-backend/*.iml
+
+# frontend
+/simple-product-frontend/node_modules/
+/simple-product-frontend/.next/
+simple-product-frontend/.env.local
+
+# General
+.DS_Store
